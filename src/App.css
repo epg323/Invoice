@@ -1,7 +1,70 @@
-.App {
+.App{
+  margin:40px;
+}
+.top{
+  display:flex;
+  justify-content: space-between;
+}
+.Company{
+  display:block;
+  background-color:yellow;
+  width:200px;
+  border-style:solid;
+  padding:10px 3px;
+} 
+.invoiceNames{
+  margin-top:90px;
+}
+.invoiceInfo{
+  width:200px;
+}
+.listed{
+  display:flex;
+  border-style:solid;
+  justify-content: space-between;
+}
+.items{
+  border-collapse: collapse;
+  border-bottom:1px solid;
+}
+.headerRow{
+  border: 1px solid;
+}
+.dataRow{
+}
+.addItem{
+  border: 1px solid;
+}
+.colHead{
+  border:1px solid;
   text-align: center;
+  padding: 0px 80px;
+  background-color: gray;
+}
+.tableData{
+  border-left:1px solid;
+  border-right: 1px solid;
+  text-align: center;
+  padding: 0px 80px;
+}
+.totalRow{
+  display: flex;
+  justify-content: space-between;
+
+}
+.taxTable{
+  border: 1px solid;
+  display:flex;
+  justify-content: space-between;
+}
+.totalTable{
+  flex-direction: column; 
+  border: 1px solid;
 }
 
+.modal{
+  display: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
